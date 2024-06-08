@@ -1,0 +1,63 @@
+.vis-inner {
+  color: white;
+  //font-weight: bold;
+}
+
+.swal-text {
+    font-size: 18px;
+}
+
+.hidden {
+      display: none;
+    }
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1em;
+    //margin-top: 1em;
+    //margin-bottom: 1em;
+    margin-left: 2em;
+}
+
+.button-container {
+    padding-bottom: 0.5em;
+}
+
+.form-label {
+    min-width: 250px;
+}
+
+.vis-item .vis-delete {
+    right: 0;
+    z-index: 1000;
+}
+
+.vis-major {
+    font-weight: bold;
+}
+
+.vis-item.vis-range {
+    border-radius: 5px;
+    border-style: solid;
+    box-sizing: border-box;
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#popover {
+    background-color: #f5f4ed;
+    border: 1px solid #808074;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+    color: #000;
+    font-family: verdana;
+    font-size: 14px;
+    padding: 5px;
+    pointer-events: none;
+    position: absolute;
+    white-space: nowrap;
+}

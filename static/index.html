@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scheduler</title>
+        <script
+            type="text/javascript"
+            src="./vis-timeline-graph2d.min.js"
+        ></script>
+        <script src="./sweetalert.min.js"></script>
+        <link href="./sweetalert.css" rel="stylesheet" type="text/css" />
+        <link href="./spectre.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <form id="filtersForm" class="form horizontal">
+            <div class="form-group">
+                <label for="versionFilter" class="form-label"
+                    ><strong>Версия для просмотра</strong></label
+                >
+                <select
+                    name="version"
+                    id="versionFilter"
+                    class="form-select"
+                ></select>
+            </div>
+            <div class="button-container">
+                <button class="btn btn-primary" onclick="submit">
+                    Применить фильтры
+                </button>
+            </div>
+            <div class="button-container" style="margin-left: 2em">
+                <div
+                    id="formLoader"
+                    class="loading loading-lg"
+                    style="display: none"
+                ></div>
+            </div>
+        </form>
+        <div id="visualization"></div>
+        <div id="popover" popover></div>
+        <script type="text/javascript" src="./app.js"></script>
+    </body>
+</html>
