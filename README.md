@@ -64,6 +64,3 @@
 -   [Vis-timeline](https://visjs.github.io/vis-timeline/) для создания временной шкалы (timeline) и элементов
 -   CSS [Spectre.css](https://github.com/picturepan2/spectre)
 -   Уведомления [SweetAlert](https://sweetalert.js.org/)
-
-- [x] works
-- [x] works too
